@@ -30,12 +30,14 @@ Support Vector Classification - SVC
 Linear SVC
 Nu- NuSVC
 
+
+Ensemple.py:  Created a classifier class that takes votes from each classifier and takes the mode of the votes to give the final decision with a certain confidence level.
+Module.py: Can predict the sentiment of a single review. 
+
 The most used words from the feature set in each category: 
 
 ![](mostinformativefeatures.png)
 
-Ensemple.py:  Created a classifier class that takes votes from each classifier and takes the mode of the votes to give the final decision with a certain confidence level.
-Module.py: Can predict the sentiment of a single review. 
 
 
 
