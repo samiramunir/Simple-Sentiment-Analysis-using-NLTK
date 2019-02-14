@@ -32,7 +32,7 @@ Nu- NuSVC
 
 The output of the basic NB Classifier: 
 
-![](Screen\ Shot\ 2019-02-13\ at\ 6.25.47\ PM.png)
+![](mostinformativefeatures.png)
 
 Ensemple.py:  Created a classifier class that takes votes from each classifier and takes the mode of the votes to give the final decision with a certain confidence level.
 Module.py: Can predict the sentiment of a single review. 
