@@ -30,7 +30,7 @@ Support Vector Classification - SVC
 Linear SVC
 Nu- NuSVC
 
-The output of the basic NB Classifier: 
+The most used words from the feature set in each category: 
 
 ![](mostinformativefeatures.png)
 
