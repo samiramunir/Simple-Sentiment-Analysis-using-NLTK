@@ -20,7 +20,7 @@ Created a dictionary representation for each review of weather each top word (me
 Divdided the data into train test split. 
 Use 7 different classification models to train on the data. Namely: 
 
-Classifiers for an ensemble model: 
+Classifiers for an ensemble model from NLTK-ScikitLearn library: 
 Naive Bayes (NB)
 Multinomial NB
 Bernoulli NB
