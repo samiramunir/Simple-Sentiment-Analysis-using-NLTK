@@ -16,7 +16,7 @@ Tokenize, clean and lemmatize the data and took only the adjectives from the rev
 Created a frequency distribution and found the most used words in all of the reviews. The top 5000 was used as the features.  
 
 Make features vectors:
-Created a dictionary representation for each review of weather each top word (mentioned above) exists in the review or not. The key in the dictoinary was each of the top words and the corresponding value was True of False for weather 'Word was in the review or not' 
+Created a dictionary representation of each review. The key in the dictoinary was each of the top words and the corresponding value was True of False for whether 'Word was in the review or not' 
 Divdided the data into train test split. 
 Use 7 different classification models to train on the data. Namely: 
 
