@@ -36,7 +36,7 @@ Module.py: Can predict the sentiment of a single review.
 
 The most used words from the feature set in each category: 
 
-![](mostinformativefeatures.png)
+![](Media/mostinformativefeatures.png)
 
 
 
