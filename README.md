@@ -12,7 +12,7 @@ Created a frequency distribution and found the most used words in all of the rev
 Make features vectors:
 Created a dictionary representation of each review. The key in the dictoinary was each of the top words and the corresponding value was True of False for whether 'Word was in the review or not' 
 Divdided the data into train test split. 
-Use 7 different classification models to train on the data. Namely: 
+Use 5 different classification models to train on the data. Namely: 
 
 Classifiers for an ensemble model from NLTK-ScikitLearn library: 
 Naive Bayes (NB)
