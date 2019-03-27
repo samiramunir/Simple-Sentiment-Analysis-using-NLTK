@@ -1,8 +1,7 @@
 # Simple-Sentiment-Analysis-using-NLTK
 
 ### Introduction: 
-This project aims to perform a simple binary classification of IMDB movie reviews as positive or negative. 
-I used the IMDB movie reviews dataset from Kaggle which has 50000 reviews.
+I built a sentiment analysis model that can classify IMDB movie reviews as either positive or negative. I trained the model using 50000 IMDB movie reviews.
 
 ### Process: 
 
