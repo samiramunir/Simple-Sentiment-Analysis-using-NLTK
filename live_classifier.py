@@ -1,3 +1,4 @@
+import re
 import nltk
 import random
 from nltk.classify.scikitlearn import SklearnClassifier
@@ -8,6 +9,9 @@ from sklearn.svm import SVC
 from nltk.classify import ClassifierI
 from statistics import mode
 from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.util import filestring, pr
+from typing import Counter, List
 
 
 
@@ -44,6 +48,22 @@ word_features5k_f = open("pickled_algos/word_features5k.pickle", "rb")
 word_features = pickle.load(word_features5k_f)
 word_features5k_f.close()
 
+#for preprocessing any document_text into words
+indi_text=[]
+for i in document:
+    indi_text.append(i)
+
+indi_words=[]
+countsm=1
+for i in indi_text:
+    i = re.sub('[^a-zA-Z]',' ',i)
+    #i=i.replace('  ','')
+    i=i.split()
+    for f in i:
+        if not f in set(stopwords.words('english'))
+        indi_words.append(f)
+    
+    
 
 def parse_text(document):
     words = word_tokenize(document)
